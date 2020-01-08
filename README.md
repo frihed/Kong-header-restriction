@@ -12,7 +12,7 @@ choose one ,remove another. or you can change the code yourself, merge them to o
 
 ## use：
 
-install plugin ,edit Kong configuration, then run :
+copy the header-restriction directory to your path /kong/plugins/ ,edit kong configuration : /kong/constants.lua, add "header-restriction" , then run :
 
 ``` shell
 kong migrations up  # init database of this plugin, only needed the first time
